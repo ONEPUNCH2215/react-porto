@@ -4,13 +4,13 @@ export default function Skills() {
     'Next.js',
     'Tailwind CSS',
     'Node.js',
-    'Git',
-    'Figma',
     'TypeScript',
     'JavaScript',
     'HTML & CSS',
-    'MongoDB',
-    'Express.js',
+    'Git',
+    'Figma',
+    'C',
+    'Python',
     'Responsive Design'
   ];
 
@@ -24,7 +24,7 @@ export default function Skills() {
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="text-center text-gray-700 font-medium py-4 px-6 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors duration-200"
+              className="flex items-center justify-center text-gray-700 font-medium py-4 px-6 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors duration-200"
             >
               {skill}
             </div>

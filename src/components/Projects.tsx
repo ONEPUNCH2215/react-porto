@@ -1,23 +1,34 @@
 export default function Projects() {
   const projects = [
     {
-      name: 'BISINDO-SIGN-LANGUAGE-DETECTOR',
-      description: 'a sign language detection web application using machine learning to recognize and translate Indonesian Sign Language (BISINDO) gestures into text in real-time.',
-      
-      github: 'https://github.com/ONEPUNCH2215/BISINDO-sign-language-Detector'
+      name: "BISINDO-SIGN-LANGUAGE-DETECTOR",
+      description:
+        "a sign language detection web application using machine learning to recognize and translate Indonesian Sign Language (BISINDO) gestures into text in real-time.",
+
+      github: "https://github.com/ONEPUNCH2215/BISINDO-sign-language-Detector",
     },
     {
-      name: 'Hear-Chat-TTS-ChatApp',
-      description: 'A chat application with text-to-speech functionality, allowing users to send messages that are converted to audio for enhanced communication, particularly for deaf users.',
-      github: 'https://github.com/ONEPUNCH2215/Hear-Chat-TTS-ChatApp'
+      name: "Hear-Chat-TTS-ChatApp",
+      description:
+        "A chat application with text-to-speech functionality, allowing users to send messages that are converted to audio for enhanced communication, particularly for deaf users.",
+      github: "https://github.com/ONEPUNCH2215/Hear-Chat-TTS-ChatApp",
     },
     {
-      name: 'Portfolio Website',
-      description: 'A minimalist portfolio website showcasing projects and skills with smooth animations.',
-      techStack: 'Next.js, Tailwind CSS, Framer Motion',
+      name: "Portfolio Website",
+      description:
+        "A minimalist portfolio website showcasing projects and skills.",
+      techStack: "React, Next.js, Tailwind CSS",
       // liveDemo: 'https://example.com',
-      github: 'https://github.com/aryautama/portfolio'
+      github: "https://github.com/ONEPUNCH2215/react-porto",
     },
+    {
+      name: "WILLIFY",
+      description:
+        "An imaginary website prototype created to develop skills in HTML, CSS, and JavaScript.",
+      techStack: "HTML, CSS, JavaScript",
+      // liveDemo: 'https://example.com',
+      github: "https://github.com/ONEPUNCH2215/WILLIFY",
+    }
   ];
 
   return (
