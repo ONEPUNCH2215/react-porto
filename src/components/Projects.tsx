@@ -1,47 +1,23 @@
 export default function Projects() {
   const projects = [
     {
-      name: 'E-Commerce Platform',
-      description: 'A modern e-commerce website with shopping cart functionality and payment integration.',
-      techStack: 'React, Next.js, Stripe API, MongoDB',
-      liveDemo: 'https://example.com',
-      github: 'https://github.com/aryautama/ecommerce'
+      name: 'BISINDO-SIGN-LANGUAGE-DETECTOR',
+      description: 'a sign language detection web application using machine learning to recognize and translate Indonesian Sign Language (BISINDO) gestures into text in real-time.',
+      
+      github: 'https://github.com/ONEPUNCH2215/BISINDO-sign-language-Detector'
     },
     {
-      name: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates and team collaboration features.',
-      techStack: 'React, Node.js, Socket.io, PostgreSQL',
-      liveDemo: 'https://example.com',
-      github: 'https://github.com/aryautama/task-manager'
-    },
-    {
-      name: 'Weather Dashboard',
-      description: 'A clean weather dashboard with location-based forecasts and interactive charts.',
-      techStack: 'React, Chart.js, OpenWeather API',
-      liveDemo: 'https://example.com',
-      github: 'https://github.com/aryautama/weather-app'
-    },
-    {
-      name: 'Blog Platform',
-      description: 'A responsive blog platform with markdown support and content management system.',
-      techStack: 'Next.js, MDX, Tailwind CSS, Prisma',
-      liveDemo: 'https://example.com',
-      github: 'https://github.com/aryautama/blog-platform'
+      name: 'Hear-Chat-TTS-ChatApp',
+      description: 'A chat application with text-to-speech functionality, allowing users to send messages that are converted to audio for enhanced communication, particularly for deaf users.',
+      github: 'https://github.com/ONEPUNCH2215/Hear-Chat-TTS-ChatApp'
     },
     {
       name: 'Portfolio Website',
       description: 'A minimalist portfolio website showcasing projects and skills with smooth animations.',
       techStack: 'Next.js, Tailwind CSS, Framer Motion',
-      liveDemo: 'https://example.com',
+      // liveDemo: 'https://example.com',
       github: 'https://github.com/aryautama/portfolio'
     },
-    {
-      name: 'Music Player App',
-      description: 'A sleek music player with playlist management and audio visualization features.',
-      techStack: 'React, Web Audio API, IndexedDB',
-      liveDemo: 'https://example.com',
-      github: 'https://github.com/aryautama/music-player'
-    }
   ];
 
   return (
@@ -54,7 +30,7 @@ export default function Projects() {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300"
+              className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300 flex flex-col"
             >
               <h3 className="text-xl font-semibold text-gray-800 mb-3">
                 {project.name}
@@ -67,23 +43,25 @@ export default function Projects() {
                   {project.techStack}
                 </p>
               )}
-              <div className="flex gap-4">
-                <a
+              <div className="flex gap-4 mt-auto">
+                {/* <a
                   href={project.liveDemo}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:text-blue-700 hover:underline transition-colors duration-200 font-medium"
                 >
                   Live Demo
-                </a>
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-600 hover:text-blue-700 hover:underline transition-colors duration-200 font-medium"
-                >
-                  GitHub
-                </a>
+                </a> */}
+                <div className="bg-gray-100 rounded-lg px-4 py-2 border border-gray-300 hover:bg-gray-200 hover:border-gray-400 transition-all duration-200">
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-700 transition-colors duration-200 font-medium"
+                  >
+                    GitHub link
+                  </a>
+                </div>
               </div>
             </div>
           ))}
