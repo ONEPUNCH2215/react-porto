@@ -28,20 +28,20 @@ export default function About() {
             </h3>
             <div className="text-gray-600 leading-relaxed space-y-4">
               <p>
-                Hello! I'm a passionate web developer with a love for creating 
+                Hello! I&apos;m a passionate web developer with a love for creating 
                 beautiful, functional, and user-friendly digital experiences. 
                 My journey in web development started with curiosity and has 
                 evolved into a deep appreciation for clean code and innovative solutions.
               </p>
               <p>
                 I specialize in modern web technologies and enjoy working on 
-                projects that challenge me to grow as a developer. Whether it's 
+                projects that challenge me to grow as a developer. Whether it&apos;s 
                 building responsive websites, creating interactive applications, 
                 or solving complex problems, I approach each project with 
                 enthusiasm and attention to detail.
               </p>
               <p>
-                When I'm not coding, you can find me exploring new technologies, 
+                When I&apos;m not coding, you can find me exploring new technologies, 
                 contributing to open-source projects, or sharing knowledge with 
                 the developer community. I believe in continuous learning and 
                 staying updated with the latest trends in web development.
