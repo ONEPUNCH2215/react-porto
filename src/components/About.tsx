@@ -15,7 +15,9 @@ export default function About() {
   ];
 
   return (
-    <section id="about" className="py-24 bg-white">
+    <section id="about" className="py-24 bg-white relative">
+      <div className="absolute top-0 left-0 right-0 h-1 brush-border pointer-events-none" style={{margin: '4px', borderLeft: 'none', borderRight: 'none', borderBottom: 'none'}}></div>
+      <div className="absolute bottom-0 left-0 right-0 h-1 brush-border pointer-events-none" style={{margin: '4px', borderLeft: 'none', borderRight: 'none', borderTop: 'none'}}></div>
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-gray-800 mb-16 text-center">
           About Me
@@ -50,7 +52,7 @@ export default function About() {
                 <p className="text-sm text-gray-700">Graduation</p>
               </div>
               <div className="px-4 py-2 rounded-lg" style={{ backgroundColor: '#FFFCFB' }}>
-                <span className="text-2xl font-bold text-green-600">4+</span>
+                <span className="text-2xl font-bold text-green-600">4</span>
                 <p className="text-sm text-gray-700">Projects</p>
               </div>
             </div>
