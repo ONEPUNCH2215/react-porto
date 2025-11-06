@@ -1,6 +1,9 @@
 export default function Contact() {
   return (
-    <section id="contact" className="py-24 relative z-20">
+    <section id="contact" className="py-24 relative z-20" style={{
+      backgroundImage: 'radial-gradient(circle, rgb(51 65 85 / 0.5) 1px, transparent 1px)',
+      backgroundSize: '30px 30px'
+    }}>
       <div className="max-w-3xl mx-auto px-6">
         <div className="bg-gray-50 p-12 rounded-3xl brush-border shadow-lg">
           <div className="text-center">

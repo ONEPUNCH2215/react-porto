@@ -32,7 +32,10 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="py-24">
+    <section id="projects" className="py-24" style={{
+      backgroundImage: 'radial-gradient(circle, rgb(51 65 85 / 0.5) 1px, transparent 1px)',
+      backgroundSize: '30px 30px'
+    }}>
       <div className="max-w-5xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-gray-800 mb-16 text-center">
           Projects
