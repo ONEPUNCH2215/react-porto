@@ -1,28 +1,46 @@
 export default function About() {
   const skills = [
-    'React',
-    'Next.js',
-    'Tailwind CSS',
-    'Node.js',
-    'TypeScript',
-    'JavaScript',
-    'HTML & CSS',
-    'Git',
-    'Figma',
-    'C',
-    'Python',
-    'Responsive Design'
+    "React",
+    "Next.js",
+    "Tailwind CSS",
+    "Node.js",
+    "TypeScript",
+    "JavaScript",
+    "HTML & CSS",
+    "Git",
+    "Figma",
+    "C",
+    "Python",
+    "SQL",
+    "PyTorch",
+    "TensorFlow",
   ];
 
   return (
     <section id="about" className="py-24 bg-white relative">
-      <div className="absolute top-0 left-0 right-0 h-1 brush-border pointer-events-none" style={{margin: '4px', borderLeft: 'none', borderRight: 'none', borderBottom: 'none'}}></div>
-      <div className="absolute bottom-0 left-0 right-0 h-1 brush-border pointer-events-none" style={{margin: '4px', borderLeft: 'none', borderRight: 'none', borderTop: 'none'}}></div>
+      <div
+        className="absolute top-0 left-0 right-0 h-1 brush-border pointer-events-none"
+        style={{
+          margin: "4px",
+          borderLeft: "none",
+          borderRight: "none",
+          borderBottom: "none",
+        }}
+      ></div>
+      <div
+        className="absolute bottom-0 left-0 right-0 h-1 brush-border pointer-events-none"
+        style={{
+          margin: "4px",
+          borderLeft: "none",
+          borderRight: "none",
+          borderTop: "none",
+        }}
+      ></div>
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-gray-800 mb-16 text-center">
           About Me
         </h2>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           {/* Left Column - Introduction Section */}
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">
@@ -30,28 +48,47 @@ export default function About() {
             </h3>
             <div className="text-gray-600 leading-relaxed space-y-4">
               <p>
-                Hello! I&apos;m a Computer Science student in Binus University with a <b>3.43 GPA</b>, passionate about continuous learning and hands-on experience in software development. 
-                I&apos;m deeply interested in building interactive, efficient, and user-focused applications, eager to explore new technologies and improve my technical skills.
+                Hello! I&apos;m a Computer Science student in Binus University
+                with a <b>3.43 GPA</b>, passionate about continuous learning and
+                hands-on experience in software development. I&apos;m deeply
+                interested in building interactive, efficient, and user-focused
+                applications, eager to explore new technologies and improve my
+                technical skills.
               </p>
               <p>
-                I have practical experience working with React, Next.js, and Tailwind CSS for frontend development, alongside proficiency in Python and C for problem-solving and backend logic. 
-                Additionally, I possess a foundational understanding of Machine Learning, which helps me connect programming with intelligent data-driven solutions.
+                I have practical experience working with React, Next.js, and
+                Tailwind CSS for frontend development, alongside proficiency in
+                Python and C for problem-solving and backend logic.
+                Additionally, I possess a foundational understanding of Machine
+                Learning, which helps me connect programming with intelligent
+                data-driven solutions.
               </p>
               <p>
-                As a studious learner, I&apos;m always ready to take on new challenges, collaborate with others, and grow both technically and professionally in the ever-evolving world of technology.
+                As a studious learner, I&apos;m always ready to take on new
+                challenges, collaborate with others, and grow both technically
+                and professionally in the ever-evolving world of technology.
               </p>
             </div>
-            
+
             <div className="flex flex-wrap gap-4 mt-8">
-              <div className="px-4 py-2 rounded-lg" style={{ backgroundColor: '#FFFCFB' }}>
+              <div
+                className="px-4 py-2 rounded-lg"
+                style={{ backgroundColor: "#FFFCFB" }}
+              >
                 <span className="text-2xl font-bold text-blue-600">3.43</span>
                 <p className="text-sm text-gray-700">GPA</p>
               </div>
-              <div className="px-4 py-2 rounded-lg" style={{ backgroundColor: '#FFFCFB' }}>
+              <div
+                className="px-4 py-2 rounded-lg"
+                style={{ backgroundColor: "#FFFCFB" }}
+              >
                 <span className="text-2xl font-bold text-purple-600">2027</span>
                 <p className="text-sm text-gray-700">Graduation</p>
               </div>
-              <div className="px-4 py-2 rounded-lg" style={{ backgroundColor: '#FFFCFB' }}>
+              <div
+                className="px-4 py-2 rounded-lg"
+                style={{ backgroundColor: "#FFFCFB" }}
+              >
                 <span className="text-2xl font-bold text-green-600">4</span>
                 <p className="text-sm text-gray-700">Projects</p>
               </div>
